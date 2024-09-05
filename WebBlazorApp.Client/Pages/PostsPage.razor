@@ -1,0 +1,72 @@
+﻿@page "/Posts{User}"
+@using Microsoft.AspNetCore.SignalR.Client
+@rendermode InteractiveWebAssembly
+@inject NavigationManager NavManager
+
+@code {
+    private HubConnection? hubConnection;
+    private List<string> Posts = [];
+    public string? Post;
+
+    [Parameter]
+    public string? User { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder().WithUrl(NavManager.ToAbsoluteUri("/Post")).Build();
+        hubConnection.On<string, string>("RecievedPost", (username, Post) =>
+        {
+            var cPosts = $"{username} >> {Post}\n";
+            Posts.Add(cPosts);
+            InvokeAsync(() => StateHasChanged());
+        });
+
+        await hubConnection.StartAsync();
+    }
+
+    private bool IsConnected => hubConnection!.State == HubConnectionState.Connected;
+
+    Task Send() => hubConnection!.SendAsync("SendData", User, Post);
+}
+
+<PageTitle>Posts</PageTitle>
+
+<div class="row">
+    <div class="col-lg-7">
+        <div class="card">
+            <div class="card-header">
+                Posts
+            </div>
+            <div class="card-body">
+                <div class="border-primary" style="padding-bottom: 20px;">
+                    <div class="hstack gap-2 mb-4">
+                        <textarea class="form-control" @bind="Post" />
+                    </div>
+                    <button class="btn btn-success" @onclick="Send">Post</button>
+                </div>
+                <ul class="list-group" style="list-style-type: none;">
+                    @foreach (var index in Posts)
+                    {
+                        <li class="mb-2">
+                            @index
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="card-footer">
+                @if (!IsConnected)
+                {
+                    <div class="alert alert-danger">
+                        Disconnected
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-success">
+                        Connected
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

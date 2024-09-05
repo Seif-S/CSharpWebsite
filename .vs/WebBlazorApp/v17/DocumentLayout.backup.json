@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kei-C\\source\\repos\\WebBlazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EAB500F-51CB-4C1A-BEAE-A9DBCF6B86FA}|WebBlazorApp.Client\\WebBlazorApp.Client.csproj|c:\\users\\kei-c\\source\\repos\\webblazorapp\\webblazorapp.client\\pages\\postspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EAB500F-51CB-4C1A-BEAE-A9DBCF6B86FA}|WebBlazorApp.Client\\WebBlazorApp.Client.csproj|solutionrelative:webblazorapp.client\\pages\\postspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DDCD889-AED1-4AAE-AD38-C57B00480B63}|WebBlazorApp\\WebBlazorApp.csproj|c:\\users\\kei-c\\source\\repos\\webblazorapp\\webblazorapp\\chathub\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DDCD889-AED1-4AAE-AD38-C57B00480B63}|WebBlazorApp\\WebBlazorApp.csproj|solutionrelative:webblazorapp\\chathub\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DDCD889-AED1-4AAE-AD38-C57B00480B63}|WebBlazorApp\\WebBlazorApp.csproj|c:\\users\\kei-c\\source\\repos\\webblazorapp\\webblazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DDCD889-AED1-4AAE-AD38-C57B00480B63}|WebBlazorApp\\WebBlazorApp.csproj|solutionrelative:webblazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EAB500F-51CB-4C1A-BEAE-A9DBCF6B86FA}|WebBlazorApp.Client\\WebBlazorApp.Client.csproj|c:\\users\\kei-c\\source\\repos\\webblazorapp\\webblazorapp.client\\pages\\setuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EAB500F-51CB-4C1A-BEAE-A9DBCF6B86FA}|WebBlazorApp.Client\\WebBlazorApp.Client.csproj|solutionrelative:webblazorapp.client\\pages\\setuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DDCD889-AED1-4AAE-AD38-C57B00480B63}|WebBlazorApp\\WebBlazorApp.csproj|c:\\users\\kei-c\\source\\repos\\webblazorapp\\webblazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DDCD889-AED1-4AAE-AD38-C57B00480B63}|WebBlazorApp\\WebBlazorApp.csproj|solutionrelative:webblazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Kei-C\\source\\repos\\WebBlazorApp\\WebBlazorApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "WebBlazorApp\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Kei-C\\source\\repos\\WebBlazorApp\\WebBlazorApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "WebBlazorApp\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T22:46:59.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SetUser.razor",
+              "DocumentMoniker": "C:\\Users\\Kei-C\\source\\repos\\WebBlazorApp\\WebBlazorApp.Client\\Pages\\SetUser.razor",
+              "RelativeDocumentMoniker": "WebBlazorApp.Client\\Pages\\SetUser.razor",
+              "ToolTip": "C:\\Users\\Kei-C\\source\\repos\\WebBlazorApp\\WebBlazorApp.Client\\Pages\\SetUser.razor",
+              "RelativeToolTip": "WebBlazorApp.Client\\Pages\\SetUser.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T21:22:34.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Users\\Kei-C\\source\\repos\\WebBlazorApp\\WebBlazorApp\\ChatHub\\Chat.cs",
+              "RelativeDocumentMoniker": "WebBlazorApp\\ChatHub\\Chat.cs",
+              "ToolTip": "C:\\Users\\Kei-C\\source\\repos\\WebBlazorApp\\WebBlazorApp\\ChatHub\\Chat.cs",
+              "RelativeToolTip": "WebBlazorApp\\ChatHub\\Chat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:18:07.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostsPage.razor",
+              "DocumentMoniker": "C:\\Users\\Kei-C\\source\\repos\\WebBlazorApp\\WebBlazorApp.Client\\Pages\\PostsPage.razor",
+              "RelativeDocumentMoniker": "WebBlazorApp.Client\\Pages\\PostsPage.razor",
+              "ToolTip": "C:\\Users\\Kei-C\\source\\repos\\WebBlazorApp\\WebBlazorApp.Client\\Pages\\PostsPage.razor",
+              "RelativeToolTip": "WebBlazorApp.Client\\Pages\\PostsPage.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T21:15:28.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kei-C\\source\\repos\\WebBlazorApp\\WebBlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebBlazorApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Kei-C\\source\\repos\\WebBlazorApp\\WebBlazorApp\\Program.cs",
+              "RelativeToolTip": "WebBlazorApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:30:53.382Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

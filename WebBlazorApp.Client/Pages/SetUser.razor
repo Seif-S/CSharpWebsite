@@ -1,0 +1,33 @@
+﻿@page "/Login"
+@using Microsoft.AspNetCore.SignalR.Client
+@rendermode InteractiveWebAssembly
+@inject NavigationManager NavigationManager
+
+
+@code {
+    private string? User;
+    private void SaveUser() 
+    {
+        NavigationManager.NavigateTo($"/Posts{User}");
+    }
+
+}
+
+<div class="row">
+    <div class="col-lg-7">
+        <div class="card">
+            <div class="card-header">
+                Posts
+            </div>
+            <div class="card-body">
+                <div class="border-primary" style="padding-bottom: 20px;">
+                    <div class="hstack gap-2 mb-4">
+                        <label>User:</label>
+                        <input type="text" class="form-control" @bind="User" />
+                        <button @onclick="SaveUser" class="btn btn-success">Join</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
